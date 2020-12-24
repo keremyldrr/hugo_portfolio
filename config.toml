@@ -1,0 +1,34 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Kerem Yıldırır"
+theme = "notrack"
+newContentEditor = "emacs"
+mainSections = ["Home"]
+# disqusShortname = "example"
+paginate = 4
+ignoreErrors = ["error-remote-getjson"]
+[params]
+  author = "Kerem Yildirir"
+  siteHeading = "Kerem Yıldırır" # defaults to author
+  showBlogLatest = true
+  mainSections = ["projects"]
+  showTaxonomyLinks = false
+  nBlogLatest = 10 # number of blog post om the home page
+  blogLatestHeading = "My Projects"
+
+  [params.social]
+    github = "keremyldrr"
+    linkedin = "kerem-yildirir-75b070145/"
+    email = "example@example.com"
+    mastodon = "example"
+    medium = "example"
+    keybase = "example"
+
+[taxonomies]
+  year = "year"
+  month = "month"
+  tags = "tags"
+  categories = "categories"
+
+[permalinks]
+  blog = "/blog/:year/:month/:slug"
