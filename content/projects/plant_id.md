@@ -1,31 +1,18 @@
 ---
 title: 'Plant  Identification with Deep Learning Ensembles'
-date: 2020-06-04T23:21:09+02:00
+date: 2018-09-04T23:21:09+02:00
 Tags: [latin, test-tag, ipsum]
 Categories: [lorem]
 ---
 
-# Tempora Maxime
+# Abstract
+This work describes the plant identification system that we submitted to the ExpertLifeCLEF plant identification campaign in 2018. We fine-tuned two pre-trained deep learning architectures (SeNet and DensNetwork) using images shared by the CLEF organizers in 2017. Our main runs are 4 ensembles obtained with different weighted combinations of the 4 deep learning architectures. The fifth ensemble is based on deep learning features but uses Error Correcting Output Codes (ECOC) as the ensemble. Our best system has achieved a classification accuracy of 74.4%, while the best system obtained 86.7% accuracy, on the whole of the official test data. This system ranked 4th place among all the teams, but matched the accuracy of one of the human experts.
 
-Illo quod est aut aperiam ullam. Eum aliquam vel velit hic dolores sunt
-molestiae saepe. Est et cupiditate est saepe.
+# [Link to paper][1]
 
-Qui quo beatae minima. Tempora maxime facere praesentium officiis maiores quia.
-Quia placeat nihil sint aperiam autem quia recusandae et. In quas nulla cum
-fuga. Dolores voluptas quia facere atque omnis rerum corrupti repellendus.
 
-## Facere quod 
 
-Voluptatibus neque iure aut doloremque excepturi. Quidem aut unde
-magni. Harum qui molestiae ut itaque labore voluptas.
 
-Recusandae repudiandae perferendis sed omnis fugiat aut. Qui qui inventore
-aliquam doloribus. Fugit dolorum minima non. Ut eius laudantium quo vero aut
-ipsa qui.
 
-## Commodi est 
 
-Et ut tempore quos ratione minus sed. Repellendus reprehenderit
-minus quia omnis. Praesentium impedit consequatur nihil iusto. Blanditiis qui et
-quia dolor nulla repudiandae tenetur harum. Corporis deleniti quae officiis
-fugit repellat temporibus explicabo. Quod aliquam iure commodi exercitationem.
+[1]: https://www.researchgate.net/publication/344172916_Plant_Identification_with_Deep_Learning_Ensembles_in_ExpertLifeCLEF_2018

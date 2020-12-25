@@ -1,58 +1,19 @@
 ---
-title: '3D Instance Segmentation'
-date: 2020-06-04T23:30:14+02:00
-Tags: [latin, medieval, picture]
-Categories: [lorem, theme]
+title: '3D Real-Time Instance Segmentation with LDLS-YOLACT'
+date: 2020-07-04T23:30:14+02:00
 ---
-# Warp 
 
-Id modi explicabo non accusantium accusantium. Voluptates laborum est
-exercitationem odit voluptate dicta laborum nemo. Dolorum et aliquam qui dolorem
-voluptates ducimus voluptatibus. Quia sunt molestiae id ut. Necessitatibus
-itaque sed unde sit repellendus sit. Error pariatur deserunt dignissimos saepe
-cupiditate beatae.
+In this project I've developed a 3D object detection and tracking pipeline for autonomous driving with Python and ROS without any labeled 3D data. Our hardware were only  a Livox mid-100 lidar sensor and a RealSense camera. After calibrating the sensors, the pipeline is as follows: 
 
-{{< image frame="true" float="left" width="7em" caption="Nemo animi" src="img/thumbnails/hugo5.jpg" >}}
+- Get 2D instance segmentation of the current camera image using YOLACT.
+- Update the id numbers of the detected entitites using SORT
+- Project the masks into 3D point cloud using LDLS
+- Compute the 3D bounding boxes for the detected areas.
 
-Illum quae laudantium quia vel facere aliquid earum. Inventore culpa
-perspiciatis et veniam et amet distinctio. Facilis expedita doloremque
-voluptates nihil et sint commodi et. Et totam iste doloribus et quisquam.
-Quaerat veritatis repellendus vel est.
+{{<youtube h26dd4iHiVg>}}
 
-{{< image frame="true" float="right" width="9em" src="img/thumbnails/hugo2.jpg" >}}
+{{<youtube uLb_L60hxHc>}}
 
-Nemo animi expedita voluptas ut. Similique dolores animi aut similique vel ullam
-aut. Numquam doloribus temporibus error cupiditate et et quia. Accusamus sunt et
-omnis. Rem iure deserunt eaque. Corrupti autem reiciendis et temporibus et sit
-ipsa.
+{{<youtube FFxR8pmEyY0>}}
 
-Vero necessitatibus quasi id non assumenda saepe quaerat iusto. Assumenda quis
-odio est et unde. Cumque necessitatibus aut suscipit sed molestiae. At doloribus
-molestiae ut ratione.
-
-Laudantium et perspiciatis error ut rem earum mollitia suscipit. Ut consectetur
-voluptatem fugiat illum. Consequuntur quo non nam vitae similique voluptate
-occaecati deleniti. Odio numquam sint expedita ratione. Natus magnam nemo enim
-enim quasi consequuntur. Consectetur voluptatibus aut perspiciatis sint
-similique.
-
-Dignissimos aut sapiente inventore. Vero alias exercitationem sint mollitia
-molestias dolorem aspernatur. Qui necessitatibus dolor ab ad a modi porro.
-
-Quae qui ratione velit eaque iusto in omnis. Provident voluptatem qui ab
-temporibus porro. Velit magnam vel totam laudantium voluptatem consequatur iste
-dolores. Minima quia sapiente expedita dolorem et sit rerum.
-
-Et odio asperiores et. Nesciunt adipisci quod distinctio perspiciatis. Enim
-dignissimos error omnis cum rerum. Architecto est cumque sed. Optio et
-perferendis et voluptatem et neque.
-
-{{< image wide="true" caption="Vero necessitatibus" src="img/fullsize/hugo4.jpg" >}}
-
-Adipisci repellat recusandae dolorem quam dolores quae dolor porro. Soluta sint
-inventore dolores aut delectus quae. Eius est veniam vel nihil.
-
-Voluptates facilis repudiandae explicabo optio quaerat quis consequuntur. Ullam
-aspernatur expedita ea fuga consequuntur sit nam alias. Nisi quia laborum et
-error tenetur accusamus aliquam. Harum tempore adipisci mollitia. Molestias
-voluptatem consequuntur ipsum. Laboriosam earum voluptas et assumenda nemo qui.
+Source code can be found  [here ](["https://github.com/keremyldrr/3D-Instance-Segmentation-with-LDLS-YOLACT"])page. For the implementation with ROS, please get in touch.

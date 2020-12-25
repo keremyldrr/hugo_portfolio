@@ -1,28 +1,28 @@
-baseURL = "http://example.org/"
+
+baseURL = "/"
 languageCode = "en-us"
 title = "Kerem Yıldırır"
 theme = "notrack"
 newContentEditor = "emacs"
 mainSections = ["Home"]
+
 # disqusShortname = "example"
-paginate = 4
+paginate = 5
 ignoreErrors = ["error-remote-getjson"]
 [params]
   author = "Kerem Yildirir"
   siteHeading = "Kerem Yıldırır" # defaults to author
-  showBlogLatest = true
+  showBlogLatest = false
   mainSections = ["projects"]
   showTaxonomyLinks = false
-  nBlogLatest = 10 # number of blog post om the home page
+  nBlogLatest = 3 # number of blog post om the home page
   blogLatestHeading = "My Projects"
-
+  color_theme = "coffee"
   [params.social]
     github = "keremyldrr"
     linkedin = "kerem-yildirir-75b070145/"
-    email = "example@example.com"
-    mastodon = "example"
-    medium = "example"
-    keybase = "example"
+    email = "kerem.yildirir@tum.de"
+    researchgate = "Kerem_Yildirir"
 
 [taxonomies]
   year = "year"
