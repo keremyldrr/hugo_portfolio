@@ -5,7 +5,7 @@ draft: false
 
 ---
 
-Implemented vanilla Tracktor with Faster-RCNN using PyTorch. Added a basic motion model and also a reidentificaiton network as the paper suggested for Tracktor++ .  Developed using the MOT16 benchmark and achieved following results on the training set.
+Implemented vanilla [Tracktor](https://arxiv.org/pdf/1903.05625.pdf) with [Faster-RCNN](https://arxiv.org/abs/1506.01497) using PyTorch. Added a basic motion model and also a reidentificaiton network as the paper suggested for Tracktor++ .  Developed using the [MOT16](https://arxiv.org/abs/1603.00831) benchmark and achieved following results on the training set.
 
 {{<image  frame= "true" src= "img/mot.jpg"  caption="My results">}}
 
